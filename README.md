@@ -85,7 +85,7 @@
   <section>
     <h2>📊 Training & Performance</h2>
     <ul>
-      <li>95%+ expected accuracy with augmentation</li>
+      <li>99.2%+ expected accuracy</li>
       <li>Generalizes across lighting, angles, and quality variations</li>
     </ul>
     <h3>📈 Accuracy & Loss Graphs:</h3>
