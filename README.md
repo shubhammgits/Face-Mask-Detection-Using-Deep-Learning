@@ -23,6 +23,14 @@
     </p>
   </section>
 
+  <h2>📌 Features</h2>
+    <ul>
+      <li>Real-time face mask detection using webcam</li>
+      <li>Trained with MobileNetV2 for high accuracy</li>
+      <li>Supports both mask and no-mask classification</li>
+      <li>Lightweight and fast for real-time deployment</li>
+    </ul>
+
   <section class="section">
     <h2>⚙️ Installation</h2>
     <p>Clone the repository and install the required dependencies:</p>
