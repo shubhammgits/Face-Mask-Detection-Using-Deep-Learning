@@ -12,6 +12,12 @@
       <b>Transfer Learning (MobileNetV2)</b>. The goal is to classify whether a person is wearing a mask or not, 
       using webcam/video streams as well as static images.<br><br>
    I've made it super simple – no local setup, no CUDA and cuDDN, no complicated pip/conda installations. You just need Google Colab + 3 notebooks</p><br>
+
+   <p>
+      This project implements a <strong>real-time face mask detection system</strong> 
+      using <code>TensorFlow</code>, <code>Keras</code>, and <code>OpenCV</code>. 
+      The model classifies whether a person is wearing a mask or not from a live camera feed.
+    </p>
    <p>
       The system is trained on a combined dataset of multiple Kaggle datasets (~18k images) to improve accuracy and robustness. 
       The project was developed and tested in <b>Google Colab</b> for easy accessibility and GPU acceleration.
@@ -30,14 +36,15 @@
     </ul>
   </section>
 
-  <section class="section">
-    <h2>📌 Overview</h2>
-    <p>
-      This project implements a <strong>real-time face mask detection system</strong> 
-      using <code>TensorFlow</code>, <code>Keras</code>, and <code>OpenCV</code>. 
-      The model classifies whether a person is wearing a mask or not from a live camera feed.
-    </p>
+   <section>
+    <h2>📂 Dataset</h2>
+    <ul>
+      <li>Created by combining multiple Kaggle datasets (Mask / No Mask)</li>
+      <li>~18,500 images used</li>
+      <li>Preprocessing: resized to 224x224, normalized, and augmented (flips, rotations, zoom)</li>
+    </ul>
   </section>
+
 
   <h2>📌 Features</h2>
     <ul>
