@@ -71,6 +71,16 @@
     <p><b>Optimizations:</b> EarlyStopping, ReduceLROnPlateau, ModelCheckpoint</p>
   </section>
 
+  <section class="section">
+    <h2>📂 Project Structure</h2>
+    <pre><code>📦 Real Time Face Mask Detection
+ ┣ 📜 Face Mask Detection DeepLearning.ipynb
+ ┣ 📜 RealTimeDetection.ipynb
+ ┣ 📜 Using the trained model.py
+ ┣ 📂 dataset
+</code></pre>
+  </section>
+
 
   <section>
     <h2>📊 Training & Performance</h2>
@@ -123,16 +133,6 @@
   </p>
 </section>
 
-
-  <section class="section">
-    <h2>📂 Project Structure</h2>
-    <pre><code>📦 Real Time Face Mask Detection
- ┣ 📜 Face Mask Detection DeepLearning.ipynb
- ┣ 📜 RealTimeDetection.ipynb
- ┣ 📜 Using the trained model.py
- ┣ 📂 dataset
-</code></pre>
-  </section>
 
   <section class="section">
     <h2>📊 Dataset</h2>
