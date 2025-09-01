@@ -54,6 +54,24 @@
       <li>Lightweight and fast for real-time deployment</li>
     </ul>
 
+    <section>
+    <h2>🧠 Model (MobileNetV2)</h2>
+    <p><b>Base Model:</b> Pre-trained MobileNetV2 on ImageNet</p>
+    <p><b>Custom Layers:</b></p>
+    <ul>
+      <li>GlobalAveragePooling2D</li>
+      <li>BatchNormalization</li>
+      <li>Dropout (0.5 and 0.3)</li>
+      <li>Dense (ReLU + Softmax for binary classification)</li>
+    </ul>
+    <p><b>Training Strategy:</b></p>
+    <ul>
+      <li>Phase 1: Train top layers with frozen base</li>
+      <li>Phase 2: Fine-tune deeper layers with a lower learning rate</li>
+    </ul>
+    <p><b>Optimizations:</b> EarlyStopping, ReduceLROnPlateau, ModelCheckpoint</p>
+  </section>
+
   <section id="how-to-run" style="font-family: Arial, sans-serif; max-width:900px; margin:30px auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
   <h2 style="color:#111; margin-top:0;">⚡ How to Run (Easiest Method)</h2>
 
