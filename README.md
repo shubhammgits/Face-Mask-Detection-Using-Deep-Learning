@@ -95,21 +95,28 @@
 
 
   <section id="how-to-run">
-  <h2 style="color:#111; margin-top:0;">⚡ How to Run (Easiest Method)</h2>
-
-  <ol style="line-height:1.8; color:#333; font-size:16px;">
-    <li><strong>Download</strong> the <code>.ipynb</code> files from this repo (click file → Download → save to your system).</li>
-    <li><strong>Open</strong> <a href="https://colab.research.google.com/" target="_blank" style="color:#0066cc; text-decoration:none;">Google Colab</a>.</li>
-    <li><strong>Upload</strong> each notebook (<code>.ipynb</code>) one by one into Colab (File → Upload notebook).</li>
-    <li><strong>Run all cells</strong> (use <code>Shift + Enter</code> for each cell). Colab will automatically:
-      <ul style="margin-top:8px; margin-bottom:8px;">
-        <li>Install required libraries (TensorFlow, OpenCV, etc.).</li>
-        <li>Download pretrained models if needed.</li>
-        <li>Prepare the runtime and GPU (if you enable GPU).</li>
+  <h2>⚙️ How to Run</h2>
+    <p>This repo contains 3 main notebooks:</p>
+    <ol>
+      <li><b>Model Training:</b> <code>Face Mask Detection DeepLearning.ipynb</code></li>
+      <ul>
+        <li>Upload dataset (Kaggle or custom)</li>
+        <li>Adjust training params (Phase 1 = 10 epochs, Phase 2 = 20 epochs)</li>
+        <li>Save model as <code>best_mask_model.h5</code></li>
+        <li>Export model to Google Drive</li>
       </ul>
-    </li>
-    <li style="margin-top:6px;"><strong>Done ✅</strong> — you can train, test, or run the real-time demo without installing CUDA, Python, or extra packages locally.</li>
-  </ol>
+      <li><b>Model Testing:</b> <code>Using the trained model.ipynb</code></li>
+      <ul>
+        <li>Load saved model</li>
+        <li>Upload image + copy path</li>
+        <li>Predict Mask / No Mask with confidence score</li>
+      </ul>
+      <li><b>Real-Time Detection:</b> <code>RealTimeDetection.ipynb</code></li>
+      <ul>
+        <li>Runs webcam detection in Google Colab</li>
+        <li>Detects & labels faces as Mask/No Mask</li>
+      </ul>
+    </ol>
 
   <p style="background:#f0f8ff; padding:10px; border-radius:6px; color:#055160; margin-top:12px;">
     <strong>Tip:</strong> In Colab set Runtime → Change runtime type → GPU for faster training (optional).
