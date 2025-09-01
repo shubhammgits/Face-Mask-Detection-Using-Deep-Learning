@@ -54,28 +54,6 @@
 </section>
 
 
-  <div class="workflow-container">
-    <h1>📊 Face Mask Detection Workflow</h1>
-    <div class="steps">
-      <div class="step">
-        <div class="number">1</div>
-        <div class="description">Prepare dataset (Face Mask vs. No Mask)</div>
-      </div>
-      <div class="step">
-        <div class="number">2</div>
-        <div class="description">Train model on Google Colab</div>
-      </div>
-      <div class="step">
-        <div class="number">3</div>
-        <div class="description">Run inference on test images/videos</div>
-      </div>
-      <div class="step">
-        <div class="number">4</div>
-        <div class="description">Deploy in real-time (Webcam/Stream)</div>
-      </div>
-    </div>
-  </div>
-
   <section class="section">
     <h2>📂 Project Structure</h2>
     <pre><code>📦 Real Time Face Mask Detection
