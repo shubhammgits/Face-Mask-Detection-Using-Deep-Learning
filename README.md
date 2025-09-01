@@ -134,47 +134,15 @@
 </section>
 
 
-  <section class="section">
-    <h2>📊 Dataset</h2>
-    <p>
-      The model is trained on a dataset of images consisting of two classes:
-    </p>
-    <ul>
-      <li>With Mask 😷</li>
-      <li>Without Mask 🙂</li>
-    </ul>
+  <section>
+    <h2>🤝 Contributions</h2>
+    <p>Contributions, issues, and feature requests are welcome!<br>
+       Feel free to fork this repo and submit a pull request.</p>
   </section>
 
-  <section class="section">
-    <h2>🧠 Model</h2>
-    <p>
-      The detection is based on a <strong>Convolutional Neural Network (CNN)</strong> 
-      built using TensorFlow & Keras. The model is trained on thousands of face images to 
-      classify mask/no-mask with high accuracy.
-    </p>
-  </section>
-
-  <section class="section">
-    <h2>📸 Demo</h2>
-    <p>
-      Example of real-time mask detection output:
-    </p>
-    <img src="demo.png" alt="Demo Output" width="600">
-  </section>
-
-  <section class="section">
-    <h2>🤝 Contributing</h2>
-    <p>
-      Contributions, issues, and feature requests are welcome!  
-      Feel free to fork this repo and submit a pull request.
-    </p>
-  </section>
-
-  <section class="section">
+  <section>
     <h2>📜 License</h2>
-    <p>
-      This project is licensed under the <strong>MIT License</strong>.
-    </p>
+    <p>This project is licensed under the <b>MIT License</b> – free to use and modify.</p>
   </section>
 
 </main>
