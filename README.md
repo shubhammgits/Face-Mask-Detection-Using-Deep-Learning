@@ -71,8 +71,29 @@
     <p><b>Optimizations:</b> EarlyStopping, ReduceLROnPlateau, ModelCheckpoint</p>
   </section>
 
-    
 
+  <section>
+    <h2>📊 Training & Performance</h2>
+    <ul>
+      <li>95%+ expected accuracy with augmentation</li>
+      <li>Generalizes across lighting, angles, and quality variations</li>
+    </ul>
+    <h3>📈 Accuracy & Loss Graphs:</h3>
+    <div class="note">👉 Add plots here after training</div>
+  </section>
+
+  <section>
+    <h2>🛠️ Tech Stack</h2>
+    <ul>
+      <li>Python</li>
+      <li>TensorFlow / Keras</li>
+      <li>OpenCV</li>
+      <li>NumPy / Pandas / Matplotlib</li>
+      <li>Google Colab (GPU training)</li>
+    </ul>
+  </section>
+
+  
   <section id="how-to-run">
   <h2 style="color:#111; margin-top:0;">⚡ How to Run (Easiest Method)</h2>
 
