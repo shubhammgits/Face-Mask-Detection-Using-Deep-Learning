@@ -47,23 +47,34 @@
     </li>
     <li style="margin-top:6px;"><strong>Done ✅</strong> — you can train, test, or run the real-time demo without installing CUDA, Python, or extra packages locally.</li>
   </ol>
+
+  <p style="background:#f0f8ff; padding:10px; border-radius:6px; color:#055160; margin-top:12px;">
     <strong>Tip:</strong> In Colab set Runtime → Change runtime type → GPU for faster training (optional).
   </p>
 </section>
 
 
-  <section class="section">
-    <h2>🚀 Usage</h2>
-    <p>Run the following command to start real-time mask detection:</p>
-    <pre><code>python RealTimeDetection.py</code></pre>
-    <p>
-      The webcam will open and display real-time detection results.
-      <ul>
-        <li><span style="color: green;">Green Box → Person is wearing a mask ✅</span></li>
-        <li><span style="color: red;">Red Box → Person is not wearing a mask ❌</span></li>
-      </ul>
-    </p>
-  </section>
+  <div class="workflow-container">
+    <h1>📊 Face Mask Detection Workflow</h1>
+    <div class="steps">
+      <div class="step">
+        <div class="number">1</div>
+        <div class="description">Prepare dataset (Face Mask vs. No Mask)</div>
+      </div>
+      <div class="step">
+        <div class="number">2</div>
+        <div class="description">Train model on Google Colab</div>
+      </div>
+      <div class="step">
+        <div class="number">3</div>
+        <div class="description">Run inference on test images/videos</div>
+      </div>
+      <div class="step">
+        <div class="number">4</div>
+        <div class="description">Deploy in real-time (Webcam/Stream)</div>
+      </div>
+    </div>
+  </div>
 
   <section class="section">
     <h2>📂 Project Structure</h2>
