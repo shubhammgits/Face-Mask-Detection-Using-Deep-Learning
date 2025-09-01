@@ -3,54 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Real-Time Face Mask Detection</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 20px 40px;
-      text-align: center;
-    }
-    h1, h2, h3 {
-      color: #222;
-    }
-    main {
-      padding: 20px 40px;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 90%;
-    }
-    pre {
-      background: #eee;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    ul {
-      margin: 10px 0 10px 20px;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #222;
-      color: #fff;
-      font-size: 0.9em;
-    }
-  </style>
 </head>
 <body>
 
