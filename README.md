@@ -8,7 +8,7 @@
 
 <header>
   <h1>Real-Time Face Mask Detection</h1>
-  <p>A Deep Learning-based project using TensorFlow & OpenCV</p>
+  <p>A Deep Learning based project using TensorFlow & OpenCV</p>
 </header>
 
 <main>
