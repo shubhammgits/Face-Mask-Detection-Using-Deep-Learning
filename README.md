@@ -32,19 +32,12 @@
     </ul>
 
   <section class="section">
-    <p>Clone the repository:</p>
-    <pre><code>git clone https://github.com/your-username/face-mask-detection.git
-cd face-mask-detection</code></pre>
-
-    <p>Install dependencies:</p>
-    <pre><code>pip install -r requirements.txt</code></pre>
-
-    <h2>🚀 Usage</h2>
-    <p>Run training:</p>
-    <pre><code>python train_mask_detector.py</code></pre>
-
-    <p>Run detection:</p>
-    <pre><code>python detect_mask_video.py</code></pre>
+    <h2>⚙️ How to Run (Easiest Method)</h2>
+    <p>Clone the repository and install the required dependencies:</p>
+    <pre><code>git clone https://github.com/your-username/RealTimeDetection.git
+cd RealTimeDetection
+pip install -r requirements.txt
+</code></pre>
   </section>
 
   <section class="section">
