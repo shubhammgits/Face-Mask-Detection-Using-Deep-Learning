@@ -8,7 +8,9 @@
 
 <header>
   <h1>Real-Time Face Mask Detection</h1>
-  <p>A Deep Learning based project using TensorFlow & OpenCV</p>
+  <p>A Deep Learning based project using TensorFlow & OpenCV <br>
+   I've made it super simple – no local setup, no CUDA and cuDDN, no complicated pip/conda installations. <br>
+   You just need Google Colab + 3 notebooks</p>
 </header>
 
 <main>
