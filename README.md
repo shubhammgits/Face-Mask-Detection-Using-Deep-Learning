@@ -31,14 +31,26 @@
       <li>Lightweight and fast for real-time deployment</li>
     </ul>
 
-  <section class="section">
-    <h2>⚙️ How to Run (Easiest Method)</h2>
-    <p>Clone the repository and install the required dependencies:</p>
-    <pre><code>git clone https://github.com/your-username/RealTimeDetection.git
-cd RealTimeDetection
-pip install -r requirements.txt
-</code></pre>
-  </section>
+  <section id="how-to-run" style="font-family: Arial, sans-serif; max-width:900px; margin:30px auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+  <h2 style="color:#111; margin-top:0;">⚡ How to Run (Easiest Method)</h2>
+
+  <ol style="line-height:1.8; color:#333; font-size:16px;">
+    <li><strong>Download</strong> the <code>.ipynb</code> files from this repo (click file → Download → save to your system).</li>
+    <li><strong>Open</strong> <a href="https://colab.research.google.com/" target="_blank" style="color:#0066cc; text-decoration:none;">Google Colab</a>.</li>
+    <li><strong>Upload</strong> each notebook (<code>.ipynb</code>) one by one into Colab (File → Upload notebook).</li>
+    <li><strong>Run all cells</strong> (use <code>Shift + Enter</code> for each cell). Colab will automatically:
+      <ul style="margin-top:8px; margin-bottom:8px;">
+        <li>Install required libraries (TensorFlow, OpenCV, etc.).</li>
+        <li>Download pretrained models if needed.</li>
+        <li>Prepare the runtime and GPU (if you enable GPU).</li>
+      </ul>
+    </li>
+    <li style="margin-top:6px;"><strong>Done ✅</strong> — you can train, test, or run the real-time demo without installing CUDA, Python, or extra packages locally.</li>
+  </ol>
+    <strong>Tip:</strong> In Colab set Runtime → Change runtime type → GPU for faster training (optional).
+  </p>
+</section>
+
 
   <section class="section">
     <h2>🚀 Usage</h2>
