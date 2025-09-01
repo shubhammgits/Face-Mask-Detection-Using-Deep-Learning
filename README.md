@@ -92,6 +92,7 @@
     <div class="note"><img src="image.png"></div>
   </section>
 
+
   <section>
     <h2>🛠️ Tech Stack</h2>
     <ul>
