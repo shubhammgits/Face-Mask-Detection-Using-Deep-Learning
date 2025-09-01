@@ -78,9 +78,10 @@
 
   <section class="section">
     <h2>📂 Project Structure</h2>
-    <pre><code>📦 RealTimeDetection
+    <pre><code>📦 Real Time Face Mask Detection
+ ┣ 📜 Face Mask Detection DeepLearning.ipynb
  ┣ 📜 RealTimeDetection.ipynb
- ┣ 📜 RealTimeDetection.py
+ ┣ 📜 Using the trained model.py
  ┣ 📂 dataset
 </code></pre>
   </section>
