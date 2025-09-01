@@ -99,7 +99,7 @@
       <li>Python</li>
       <li>TensorFlow / Keras</li>
       <li>OpenCV</li>
-      <li>NumPy / Pandas / Matplotlib</li>
+      <li>NumPy / Matplotlib</li>
       <li>Google Colab (GPU training)</li>
     </ul>
   </section>
