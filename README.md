@@ -81,9 +81,7 @@
     <pre><code>📦 RealTimeDetection
  ┣ 📜 RealTimeDetection.ipynb
  ┣ 📜 RealTimeDetection.py
- ┣ 📜 requirements.txt
  ┣ 📂 dataset
- ┗ 📂 models
 </code></pre>
   </section>
 
