@@ -11,7 +11,11 @@
   <p> This project implements a real-time face mask detection system using <b>Deep Learning</b> and 
       <b>Transfer Learning (MobileNetV2)</b>. The goal is to classify whether a person is wearing a mask or not, 
       using webcam/video streams as well as static images.<br><br>
-   I've made it super simple – no local setup, no CUDA and cuDDN, no complicated pip/conda installations. You just need Google Colab + 3 notebooks</p>
+   I've made it super simple – no local setup, no CUDA and cuDDN, no complicated pip/conda installations. You just need Google Colab + 3 notebooks</p><br><br>
+   <p>
+      The system is trained on a combined dataset of multiple Kaggle datasets (~18k images) to improve accuracy and robustness. 
+      The project was developed and tested in <b>Google Colab</b> for easy accessibility and GPU acceleration.
+    </p>
 </header>
 
 <main>
