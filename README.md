@@ -45,7 +45,6 @@
     </ul>
   </section>
 
-
   <h2>📌 Features</h2>
     <ul>
       <li>Real-time face mask detection using webcam</li>
@@ -54,8 +53,8 @@
       <li>Lightweight and fast for real-time deployment</li>
     </ul>
 
-    <section>
-    <h2>🧠 Model (MobileNetV2)</h2>
+  <section>
+     <h2>🧠 Model (MobileNetV2)</h2>
     <p><b>Base Model:</b> Pre-trained MobileNetV2 on ImageNet</p>
     <p><b>Custom Layers:</b></p>
     <ul>
@@ -72,7 +71,9 @@
     <p><b>Optimizations:</b> EarlyStopping, ReduceLROnPlateau, ModelCheckpoint</p>
   </section>
 
-  <section id="how-to-run" style="font-family: Arial, sans-serif; max-width:900px; margin:30px auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+    
+
+  <section id="how-to-run">
   <h2 style="color:#111; margin-top:0;">⚡ How to Run (Easiest Method)</h2>
 
   <ol style="line-height:1.8; color:#333; font-size:16px;">
