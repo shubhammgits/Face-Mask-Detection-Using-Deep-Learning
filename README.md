@@ -141,11 +141,6 @@
        Feel free to fork this repo and submit a pull request.</p>
   </section>
 
-  <section>
-    <h2>📜 License</h2>
-    <p>This project is licensed under the <b>MIT License</b> – free to use and modify.</p>
-  </section>
-
 </main>
 
 <footer>
