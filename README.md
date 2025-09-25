@@ -32,7 +32,7 @@
     <ul>
       <li>Enforcing safety protocols in public places</li>
       <li>Preventing the spread of infectious diseases</li>
-      <li>Supporting authorities with low-cost, scalable solutions</li>
+      <li>Supporting authorities with low-cost and scalable solutions</li>
     </ul>
   </section>
 
